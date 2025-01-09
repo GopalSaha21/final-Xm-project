@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, rgb(21, 32, 60), rgb(255, 204, 102)); 
+    color: rgb(21, 32, 60); 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 2s ease-in-out;
+}
